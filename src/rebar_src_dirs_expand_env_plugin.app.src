@@ -1,4 +1,4 @@
-{application, rebar_src_dirs_expand_env,
+{application, rebar_src_dirs_expand_env_plugin,
 [
     {description,   "Expand env variables in src_dirs and extra_src_dirs"},
     {vsn,           "git"},

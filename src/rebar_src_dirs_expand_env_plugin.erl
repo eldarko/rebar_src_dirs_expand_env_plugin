@@ -1,4 +1,4 @@
--module(rebar_src_dirs_expand_env).
+-module(rebar_src_dirs_expand_env_plugin).
 
 -export([init/1]).
 
