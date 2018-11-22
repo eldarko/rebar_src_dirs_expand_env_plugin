@@ -4,6 +4,7 @@
 
 -spec init(rebar_state:t()) -> {ok, rebar_state:t()}.
 init(State) ->
+  rebar_log:log(info, "~p:init (~p)", [?MODULE, State]),
   {ok, expand_state(State)}.
 
 expand_state(State) ->
