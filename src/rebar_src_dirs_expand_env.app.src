@@ -1,0 +1,8 @@
+{application, rebar_src_dirs_expand_env,
+[
+    {description,   "Expand env variables in src_dirs and extra_src_dirs"},
+    {vsn,           "git"},
+    {modules,       []},
+    {registered,    []},
+    {applications,  [kernel, stdlib]}
+]}.
